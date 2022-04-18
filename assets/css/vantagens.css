@@ -1,0 +1,68 @@
+.vantagens {
+    background-color: #f5f5f5;
+}
+
+.vantagens .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.vantagens__titulo {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.vantagens__conteudo {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.vantagens__imagem--cartao {
+    background: url(../img/card-icon.png);
+}
+
+.vantagens__imagem--seguro {
+    background: url(../img/box-icon.png);
+}
+
+.vantagens__imagem--seguranca {
+    background: url(../img/security-icon.png);
+}
+
+.vantagens__imagem {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.vantagens__paragrafo {
+    padding: 0 1.5rem;
+}
+
+.conteudo__titulo {
+    padding: .9rem 0;
+    font-weight: 700;
+    font-style: none
+}
+
+@media screen and (min-width: 320px) {
+    .vantagens__conteudo {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .vantagens__conteudo {
+        width: 30%;
+    }
+    .line {
+        width: 2px;
+        height: 300px;
+        background-color: rgb(138, 138, 138);
+    }
+}

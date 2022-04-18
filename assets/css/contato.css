@@ -1,0 +1,25 @@
+.contato__titulo {
+    padding-top: 2rem;
+}
+
+.contato__paragrafo {
+    text-align: center;
+    padding:1rem 1rem 2.5rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.contato__textarea{
+    margin-bottom: 0;
+}
+
+.contato__fieldset {
+    border: none;
+    padding: 0;
+}
+
+.contato__botao {
+    padding: .8rem;
+}

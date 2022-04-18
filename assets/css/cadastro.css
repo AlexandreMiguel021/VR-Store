@@ -1,0 +1,30 @@
+.cadastro__fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cadastro__titulo {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.cadastro__input:focus{
+    outline: 1px solid gray;
+}
+
+.cadastro__input:hover {
+    font-weight: 300;
+    color: var(--dark-gray);
+}
+
+.cadastro__botao {
+    padding: .8rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 0px) {
+    .cadastro__campo {
+        width: 100%;
+    }
+}

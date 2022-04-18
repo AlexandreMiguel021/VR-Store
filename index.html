@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/destaques.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/vantagens.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>VR-Store</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <a class="logo__link" href="index.html">VR-Store</a>
+            </h1>
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link" href="index.html">Início</a></li>
+                    <li class="menu__item"><a class="menu__link" href="produtos.html">Produtos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="cadastro.html">Cadastro</a></li>
+                    <li class="menu__item"><a class="menu__link" href="contato.html">Contato</a></li>
+                </ul>
+                <div class="login">
+                    <a class="login__link" href="login.html">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </div>
+                <div class="cart">
+                    <a class="cart__link link-icon" href="carrinho.html">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart__quantidade"></span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="space"></div>
+    <main>
+
+        <section class="banner">
+            <div class="banner__conteudo">
+                <h2 class="banner__titulo">Bem-vindo a VR-Store!</h2>
+                <p class="banner__descricao">Encontre aqui os melhores produtos de realidade virtual e com o melhor
+                    preço do mercado!</p>
+            </div>
+            <img class="banner__imagem selected" imagem src="assets/img/woman-vr-1.jpg" alt="">
+            <img class="banner__imagem" imagem src="assets/img/man-vr.jpg" alt="">
+            <img class="banner__imagem" imagem src="assets/img/woman-vr-2.jpg" alt="">
+        </section>
+
+        <section class="destaques">
+            <h2 class="destaques__titulo titulo">Produtos em destaque</h2>
+            <div class="container">
+
+                <div class="destaques__conteudo">
+                    <div class="destaques__card">
+                        <img class="destaque__imagem" src="assets/img/valve-index.jpg">
+                        <h4 class="destaque__titulo">Valve Index kit completo</h4>
+                        <p class="destaque__preco">R$6299,00</p>
+                    </div>
+                    <div class="destaques__card">
+                        <img class="destaque__imagem" src="assets/img/oculus-quest.jpg">
+                        <h4 class="destaque__titulo">Oculus Rift S</h4>
+                        <p class="destaque__preco">R$2799,00</p>
+                    </div>
+                    <div class="destaques__card">
+                        <img class="destaque__imagem" src="assets/img/oculus-rift-s.jpg">
+                        <h4 class="destaque__titulo">Oculus Rift S</h4>
+                        <p class="destaque__preco">R$2499,00</p>
+                    </div>
+                </div>
+                <div class="destaques__ver-todos">
+                    <h3 class="ver-todos__titulo">Compre e receba seu produto com frete grátis</h2>
+                        <a class="ver-todos__link botao" href="produtos.html">Ver todos os produtos</a>
+                </div>
+            </div>
+            <div class="space"></div>
+        </section>
+
+        <section class="vantagens">
+            <div class="container">
+                <H2 class="vantagens__titulo titulo">Vantagens em comprar na VR-Store</H2>
+                <div class="vantagens__conteudo">
+                    <div class="vantagens__imagem vantagens__imagem--cartao"></div>
+                    <h3 class="conteudo__titulo">Pague com cartão de crédito ou boleto</h3>
+                    <p class="vantagens__paragrafo">Na VR-Store você paga parcelado em até 10x sem juros ou à vista no
+                        boleto com desconto.</p>
+                </div>
+                <div class="line"></div>
+                <div class="vantagens__conteudo">
+                    <div class="vantagens__imagem vantagens__imagem--seguro"></div>
+                    <h3 class="conteudo__titulo">Envio rápido e seguro</h3>
+                    <p class="vantagens__paragrafo">Acompanhe o envio da sua compra e raceba em até 7 dias com frete
+                        gratuíto para todo território nacional.
+                    </p>
+                </div>
+                <div class="line"></div>
+                <div class="vantagens__conteudo">
+                    <div class="vantagens__imagem vantagens__imagem--seguranca"></div>
+                    <h3 class="conteudo__titulo">Segurança do início ao fim</h3>
+                    <p class="vantagens__paragrafo">Acompanhamos você até que receba o que comprou. E se não receber o
+                        que esperava, devolvemos o seu dinheiro.
+                    </p>
+                </div>
+            </div>
+            <div class="space"></div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <section class="footer__conteudo newsletter">
+                <h3 class="footer__titulos">Newsletter</h3>
+                <form class="newsletter__form" method="" action="#">
+                    <legend class="form__legenda">Receba as novidades semanais</legend>
+                    <fieldset class="form__fieldset">
+                        <label class="form__label" for="user-email-news">E-mail:</label>
+                        <input class="form__input" type="email" name="email" id="user-email-news"
+                            placeholder="Seu endereço de email">
+                    </fieldset>
+                    <button class="form__botao botao" type="submit">Enviar</button>
+                </form>
+            </section>
+
+            <section class="footer__conteudo contato">
+                <h3 class="footer__titulos">Contato</h3>
+                <div>
+                    <a class="contato__link" href="mailto:Alexandre@dominio.com">
+                        <img class="contato__icones" src="assets/img/email-icon.png">
+                        <p>Alexandre@dominio.com</p>
+                    </a>
+                </div>
+                <div>
+                    <a class="contato__link" href="tel:+5541912345678">
+                        <img class="contato__icones" src="assets/img/phone-icon.png">
+                        <p>(41)91234-5678</p>
+                    </a>
+                </div>
+            </section>
+
+            <section class="footer__conteudo redes-sociais">
+                <h3 class="footer__titulos">Nossas Redes Sociais</h3>
+                <ul class="redes-sociais__lista">
+                    <li class="lista__icones">
+                        <a href=""><img class="footer__icones" src="assets/img/facebook-icon.png">
+                            <a>
+                    </li>
+                    <li class="lista__icones">
+                        <a href=""><img class="footer__icones" src="assets/img/instagram-icon.png"></a>
+                    </li>
+                    <li class="lista__icones">
+                        <a href=""><img class="footer__icones" src="assets/img/whatsapp-icon.png"></a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="footer__logo">
+            <a class="logo__link" href="index.html">
+                <h2>VR-Store</h2>
+            </a>
+        </div>
+    </footer>
+    <script src="js/banner.js" type="module"></script>
+    <script src="js/data/produtoDados.js"></script>
+    <script src="js/data/clienteDados.js"></script>
+</body>
+
+</html>

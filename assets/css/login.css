@@ -1,0 +1,88 @@
+body {
+   background-color: #fcfcfc;
+}
+
+.sair {
+   margin: 2rem auto;
+   width: 100%;
+   display: none;
+}
+
+.sair--ativo {
+   display: block;
+}
+
+.campo__sair {
+   text-align: center;
+   width: 100%;
+   margin: 1rem auto;
+}
+
+.conta__sair--msg {
+   font-size: 1.3rem;
+   ;
+}
+
+.conta__sair--btn {
+   display: inline-block;
+   padding: .3rem;
+   width: 100px;
+}
+
+.login {
+   display: block;
+}
+
+.login--desativo {
+   display: none;
+}
+
+.login__logo {
+   margin: 2rem auto;
+   width: 170px;
+}
+
+.logo__link {
+   color: var(--dark-gray);
+   text-align: center;
+   font-size: 2.3rem;
+}
+
+.login__mensagem {
+   display: inline-block;
+   text-align: center;
+   width: 100%;
+   margin: auto;
+}
+
+.login-invalido span {
+   color: var(--alert-color);
+
+}
+
+.login-valido span {
+   color: rgb(20, 172, 32);
+}
+
+.login__fieldset {
+   max-width: 500px;
+   margin: auto;
+   border: 1px solid var(--light-gray);
+   padding-top: 1rem;
+   box-sizing: border-box;
+}
+
+.login__legend {
+   font-size: 1.5rem;
+   padding: .5rem;
+}
+
+.botao__login {
+   padding: .5rem;
+}
+
+@media screen and (min-width: 0px) {
+   .login__fieldset {
+      width: 100%;
+   }
+}

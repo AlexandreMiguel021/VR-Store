@@ -1,0 +1,159 @@
+.footer {
+    background-color: #D9D9D9;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.footer__conteudo {
+    padding: 0 .5rem;
+}
+
+.footer__icones {
+    width: 35px;
+    padding: 10px 10px 10px 0;
+}
+
+.footer__titulos {
+    font-size: 1.5rem;
+    padding-bottom: .4rem;
+}
+
+.footer__logo {
+    padding: 1rem;
+    background-color: var(--dark-gray);
+    text-align: center;
+}
+
+
+/* newsletter style */
+
+.newsletter {
+    margin: auto 0;
+}
+
+.form__legenda {
+    text-align: center;
+    padding-bottom: .3rem;
+}
+
+.form__fieldset {
+    border: 2px solid var(--dark-gray);
+    background-color: #f5f5f5;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.form__input {
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    padding: .6rem .3rem;
+    color: var(--dark-gray);
+    border: 0 none;
+    outline: 0;
+    width: 100%;
+}
+
+.form__label {
+    display: none;
+}
+
+.form__input::placeholder {
+    color: var(--dark-gray);
+    font-weight: 100;
+    text-align: center;
+}
+
+.form__botao {
+    background-color: #545454;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: .5rem;
+    padding: .3rem;
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.form__botao:hover {
+    background-color: #424242;
+}
+
+
+/* redes sociais style */
+
+.redes-sociais__lista {
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+.lista__icones {
+    padding-right: .5rem;
+}
+
+
+/* contato style */
+
+.contato__link {
+    display: flex;
+    align-items: center;
+}
+
+.contato__icones {
+    width: 35px;
+    padding: 10px 10px 10px 0;
+}
+
+.contato__link {
+    text-decoration: none;
+    color: var(--dark-gray);
+}
+
+@media screen and (min-width: 0) {
+    .footer .container {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .footer__conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .footer__conteudo:last-child {
+        padding-bottom: 0;
+    }
+
+    .newsletter__form {
+        width: 100%;
+    }
+
+    .form__legenda {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 880px) {
+    .footer .container {
+        padding: 4rem;
+    }
+
+    .footer__conteudo {
+        width: 30%;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .form__legenda {
+        margin: 0;
+    }
+}

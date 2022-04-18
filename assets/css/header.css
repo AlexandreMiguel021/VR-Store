@@ -1,0 +1,146 @@
+.header {
+    background-color: var(--dark-gray);
+}
+
+.header .container {
+    padding: 0 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login__link {
+    text-decoration: none;
+    color: var(--white);
+    font-size: .8rem;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+
+.logo__link {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__lista {
+    display: flex;
+}
+
+.menu__item {
+    list-style: none;
+    margin-right: 1.5rem;
+    text-transform: uppercase;
+}
+
+.menu__link {
+    color: var(--white);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.menu__link:hover, .fas:hover {
+   color: #acacac;
+}
+
+.cart {
+    color: white;
+    padding: .3rem;
+    border-radius: 25%;
+    display: flex;
+}
+
+.cart__link, .cart__link:hover {
+    text-decoration: none !important;
+    color: white;
+}
+
+.cart__quantidade {
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 100%;
+    padding: 0 .2rem;
+    font-weight: 500;
+}
+
+.fa-user{
+    font-size: 1.3rem;
+}
+
+.fa-shopping-cart {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 0px) {
+    .header .container {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .menu__lista {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .menu__item {
+        width: 100%;
+        padding-bottom: .5rem;
+    }
+
+    .menu__link {
+        font-size: 1.2rem;
+    }
+
+    .fa-shopping-cart {
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header .container {
+        flex-direction: row;
+        padding-top: 0;
+    }
+
+    .header {
+        position: fixed;
+        width: 100%;
+        z-index: 22;
+        top: 0;
+        
+    }
+
+    .menu {
+        width: auto;
+        flex-direction: row;
+    }
+
+    .menu__lista {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .menu__link {
+        font-size: 1rem;
+    }
+
+    .menu__item {
+        width: 100%;
+        padding: 0;
+    }
+
+    .fa-shopping-cart {
+        margin: 0;
+    }
+}
